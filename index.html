@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- Portfolio of Rinkosh Gundeti | Date: 14-Oct-2025 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Rinkosh Gundeti</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <!-- Internal CSS for base styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            line-height: 1.6;
+            background-color:white; /* named color */
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50; /* hex color */
+        }
+
+        h2 {
+            color: rgb(52, 152, 219); /* rgb color */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e0f7fa;
+        }
+
+        colgroup col:first-child {
+            background-color: #d3d3d3; /* light gray first column */
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="cag/styles.css">   
+</head>
+<body>
+
+<header>
+    <!-- Hero Section with inline CSS demonstration -->
+    <div id="hero" class="banner" data-track="intro" style="background-color:#ffeaa7; padding:30px; text-align:center;">
+        <img src="images/portrait.jpg" alt="Rinkosh Portrait" width="150" title="My Portrait" style="float:right ">
+        <h1>Rinkosh Gundeti</h1>
+        <p>Bachelor in Information Systems Study| Learning HTML, CSS & Python</p>
+    </div>
+</header>
+
+<main>
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am <strong>Rinkosh Gundeti</strong>, a B.Tech student passionate about <mark>web development</mark> and programming. I enjoy learning new skills and building projects.</p>
+        <p>Currently, I am learning HTML, CSS, and Python. I like <sup>exploring new technologies</sup> and solving challenges. I often say <q cite="https://example.com">"Practice makes perfect"</q>. </p>
+    </section>
+
+    <!-- Skills Section with Lists -->
+    <section id="skills" >
+        <h2 >Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS
+                <ul>
+                    <li>Flexbox</li>
+                    <li>Grid</li>
+                    <li>Animations</li>
+                </ul>
+            </li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <li>Create Personal Portfolio Page</li>
+            <li>Build a Calculator with Python</li>
+            <li>Design Responsive Web Templates</li>
+            <li>Develop Mini Python Games</li>
+            <li>Contribute to Open Source</li>
+        </ol>
+
+        <!-- Project Images -->
+        <img src="images/portrait.jpg" alt="Rinkosh Portrait" width="200" title="My Portrait">
+        <img src="images/project.jpg" alt="Sample Project Screenshot" width="300">
+    </section>
+
+    <!-- Testimonial Section with Blockquote -->
+    <section id="testimonial">
+        <h2>Testimonials</h2>
+        <blockquote cite="https://example.com">
+            "Rinkosh is highly motivated and eager to learn. He quickly adapts to new technologies."
+        </blockquote>
+        <p>As my mentor said: <q>Keep practicing every day to become a pro!</q></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <ul>
+            <li>Email: <a href="mailto:rinkosh@example.com">rinkoshgundeti413@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/rinkoshgundeti" target="_blank" rel="noopener">My Profile</a></li>
+            <li>GitHub: <a href="https://github.com/rinkoshgundeti" target="_blank" rel="noopener">My GitHub</a></li>
+        </ul>
+    </section>
+
+    <!-- Weekly Study Plan Table -->
+    <section id="study-plan">
+        <h2>Weekly Study Plan</h2>
+        <table>
+            <caption>My Weekly Study Schedule</caption>
+            <colgroup>
+                <col style="background-color:#d3d3d3">
+            
+                
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00-10:00</td>
+                    <td>Math</td>
+                    <td>Science</td>
+                    <td>Math</td>
+                    <td>English</td>
+                    <td>Science</td>
+                    <td>Revision</td>
+                    <td>Rest</td>
+                </tr>
+                <tr>
+                    <td>10:30-12:30</td>
+                    <td>English</td>
+                    <td>Math</td>
+                    <td>Science</td>
+                    <td>Math</td>
+                    <td>English</td>
+                    <td rowspan="2">Lab</td>
+                    <td>Rest</td>
+                </tr>
+                <tr>
+                    <td>1:30-3:30</td>
+                    <td>Science</td>
+                    <td>English</td>
+                    <td>Math</td>
+                    <td>Science</td>
+                    <td>Math</td>
+                    <td>Self-Study</td>
+                </tr>
+                <tr>
+                    <td colspan="8">Break</td>
+                </tr>
+                <tr>
+                    <td>4:00-6:00</td>
+                    <td>Revision</td>
+                    <td>Project Work</td>
+                    <td>English</td>
+                    <td>Revision</td>
+                    <td>Project Work</td>
+                    <td>Self-Study</td>
+                    <td>Rest</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8">Stay consistent and keep learning!</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2025 Rinkosh Gundeti | All Rights Reserved
+</footer>
+
+</body>
+</html>
