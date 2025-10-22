@@ -8,4 +8,4 @@ HTML Basics, Attributes, Headings, Paragraphs, Styles, Colors, Links,
 Images, Lists, Tables, CSS Integration (Inline, Internal, External),  
 Comments, Favicon, Quotations, Colspan, Rowspan, Colgroup, and Semantic Design.
 README LINK: 
-My web page:
+My web page:https://rinkoshgundeti.github.io/Html-Exercise--15-10-2025/
